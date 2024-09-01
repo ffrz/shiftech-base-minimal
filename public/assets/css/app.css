@@ -1,0 +1,25 @@
+/* App Styesheets */
+.table th {
+    text-align: center;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+[class*=sidebar-light-] .nav-treeview>.nav-item>.nav-link:hover {
+    background-color: rgba(0, 0, 0, .2);
+    color: #212529;
+}
+
+.accordion .card-header .btn {
+    font-weight: normal;
+    color: inherit;
+    padding: 0;
+}
+.table .empty {
+    text-align: center;
+    font-style: italic;
+}
